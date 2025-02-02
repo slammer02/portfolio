@@ -1,0 +1,51 @@
+.footer{
+ background: #1E4776;
+ height: 290px;
+}
+@mixin title($size,$weight,$орсу,$col){
+	color: white;
+	opacity: $орсу;
+	font-size: $size;
+	font-weight: $weight;
+	background: $col;
+
+}
+.fot-h2{
+	@include title(28px,700,0.40,none)
+}
+.fot-p{
+	@include title(15px,600,0.40,none)
+}
+.fot-p2{
+	@include title(15px,500,none,none)
+}
+.fot-p3{
+	@include title(15px,300,0.40,none)
+}
+button a span{
+	@include title(21px,600,none,none)
+}
+button:hover{
+	background:#1E4776 !important;
+}
+
+.fot-img{
+	width: 31px;
+	height: 28px;
+}
+a{
+	text-decoration: none;
+}
+.footer-icon{
+	width: 310px;
+	font-size: 28px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-decoration: none;
+}
+
+
+
+
+

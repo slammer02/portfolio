@@ -1,0 +1,80 @@
+@import 'fonts';  
+
+
+
+//!main
+h1{
+font-size: 46px;
+font-weight: 700;
+line-height: 60px;
+}
+.images-title{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+a{
+	text-decoration: none;
+}
+.col-10{
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+//!main
+
+
+//! footer
+
+.footer{
+	background: #1E4776;
+  }
+  @mixin title($size,$weight,$орсу,$back,$col){
+	  color: $col;
+	  opacity: $орсу;
+	  font-size: $size;
+	  font-weight: $weight;
+	  background: $back;
+  
+  }
+  .fot-h2{
+	  @include title(28px,700,0.40,none,white)
+  }
+  .fot-p{
+	  @include title(15px,600,0.40,none,white)
+  }
+  .fot-p2{
+	  @include title(15px,500,none,none,white)
+  }
+  .fot-p3{
+	  @include title(15px,300,0.40,none,white)
+  }
+  .fot-btn span{
+	  @include title(21px,600,none,none,white)
+  }
+  .con-btn{
+	@include title(16px,700,none,white,#0077ff)
+  }
+  .fot-p3{
+	line-height: 20px;
+  }
+  .fot-img{
+	  width: 31px;
+	  height: 28px;
+  }
+  
+  .footer-icon{
+	  width: 310px;
+	  font-size: 28px;
+	  display: flex;
+	  justify-content: space-evenly;
+	  align-items: center;
+	  text-decoration: none;
+  }
+  
+  
+  
+  
+
+//! footer
