@@ -85,7 +85,6 @@ a {
 
 .footer {
   background: #1E4776;
-  height: 290px;
 }
 
 .fot-h2 {
@@ -120,7 +119,7 @@ a {
   background: none;
 }
 
-.fotbtn span {
+.fot-btn span {
   color: white;
   opacity: none;
   font-size: 21px;
@@ -128,7 +127,7 @@ a {
   background: none;
 }
 
-.conbtn {
+.con-btn {
   color: #0077ff;
   opacity: none;
   font-size: 16px;
